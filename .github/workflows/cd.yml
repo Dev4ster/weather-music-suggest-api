@@ -24,13 +24,13 @@ jobs:
       - name: Build the CDK project
         run: npm run build
 
-      - name: Set up Docker
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io
-          sudo systemctl start docker
-          sudo systemctl enable docker
-          docker --version
+      # - name: Set up Docker
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y docker.io
+      #     sudo systemctl start docker
+      #     sudo systemctl enable docker
+      #     docker --version
 
       - name: Deploy with CDK
         env:
