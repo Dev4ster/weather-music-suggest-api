@@ -37,7 +37,7 @@ export async function handler(
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ genre, musicSuggestions }),
+      body: JSON.stringify({ genre, musicSuggestions, deploy: true }),
     };
   } catch (error) {
     console.error(error);
