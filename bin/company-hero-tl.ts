@@ -9,8 +9,8 @@ const app = new cdk.App();
 
 
 const env: cdk.Environment = {
-  account: '583264974552',
-  region: 'us-east-1'
+  account: process.env.AWS_ACCOUNT_ID,
+  region: process.env.AWS_REGION
 }
 
 const tags = {
