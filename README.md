@@ -134,7 +134,8 @@ Caso um commit novo entre na main uma esteira de CD vai ser ativada publicando o
         OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
         SPOTIFY_CLIENT_ID=your_spotify_client_id
         SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-        
+        AWS_REGION=your_aws_region
+        AWS_ACCOUNT_ID=your_aws_account_id
         ```
         
 
